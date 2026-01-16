@@ -1,6 +1,17 @@
-# vscode-preset README
+# vscode-preset
 
-This is the README for your extension "vscode-preset". After writing up a brief description, we recommend including the following sections.
+vscode-preset applies a small set of recommended workspace settings to your project (format on save, tab size, trim trailing whitespace, etc.).
+
+## Usage
+
+- Open the Command Palette and run **Apply Recommended Workspace Settings**.
+- Choose `Preview` to view the JSON or `Apply` to write to `.vscode/settings.json`.
+
+## Notes
+
+- This extension only writes workspace-level settings and will prompt before making changes.
+
+---
 
 ## Features
 
