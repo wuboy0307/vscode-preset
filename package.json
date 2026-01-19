@@ -10,29 +10,8 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onStartupFinished",
-    "onCommand:vscode-preset.applyDefaults",
-    "onCommand:vscode-preset.helloWorld"
-  ],
+  "activationEvents": ["*"],
   "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "vscode-preset.helloWorld",
-        "title": "Hello World"
-      },
-      {
-        "command": "vscode-preset.applyDefaults",
-        "title": "Apply Recommended Workspace Settings"
-      }
-    ],
-    "configurationDefaults": {
-      "editor.formatOnSave": true,
-      "editor.tabSize": 2,
-      "files.trimTrailingWhitespace": true
-    }
-  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
